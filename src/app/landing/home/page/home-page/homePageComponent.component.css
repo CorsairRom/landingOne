@@ -1,0 +1,37 @@
+:host {
+  display: block;
+}
+
+#HomeBanner{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  url("src/assets/home/banner.png")
+
+
+}
+#page {
+  min-height: 100vh; /* demo only */
+}
+
+#page:before {
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 150%;
+  left: -10%;
+  top: -25%;
+  background: #F6990D;
+  transform: rotate(4deg);
+  border-right: 4px solid #FEBF78;
+}
+#romboide::after {
+  content: '';
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  bottom: 0;
+  left: 450px;
+  transform: skew(-45deg);
+  border-right: 4px solid #FEBF78;
+}

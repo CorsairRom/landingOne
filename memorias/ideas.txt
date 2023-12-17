@@ -1,0 +1,8 @@
+Vende rápido, Vende Informado!
+
+Te asesoramos en todo el proceso de venta de tu vehiculo
+}
+
+verde: #2beb09
+Amarillo: #fff202
+rojo: #f20909
