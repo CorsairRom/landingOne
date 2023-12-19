@@ -3,3 +3,11 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 /* @import '/node_modules/primeflex/primeflex.css'; */
+
+.color-brand{
+  color: #B8652A;
+}
+
+.bg-brand{
+  background-color: #B8652A;
+}

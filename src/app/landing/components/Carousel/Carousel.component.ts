@@ -7,7 +7,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrls: ['./Carousel.component.css'],
 })
 export class CarouselComponent {
-  img1 = 'src/assets/logo.jpg'
+  img1 = 'assets/home/flayer.png'
+  img2 = 'assets/home/recien-llegado.jpg'
   // src\assets\logo.jpg
 
 }

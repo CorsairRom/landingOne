@@ -7,6 +7,7 @@ import { CarouselComponent } from '../components/Carousel/Carousel.component';
 import { FeatureComponent } from './components/feature/feature.component';
 import { StepComponent } from './components/step/step.component';
 import { FooterComponent } from '../components/footer/footer.component';
+import { CardComponent } from '../components/card/card.component';
 
 
 
@@ -17,7 +18,8 @@ import { FooterComponent } from '../components/footer/footer.component';
     HomeRoutingModule,
     FeatureComponent,
     StepComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
 
   ],
   declarations: [
